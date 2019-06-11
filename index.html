@@ -1,0 +1,3149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SquaresLab</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#people">Who We Are</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#research">Our Research</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#publications">Publications</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">squaresLab</h1>
+      <h3 class="mb-5">
+        <em>Software Quality in Real Evolving Systems.</em>
+      </h3>
+      <a class="btn btn-danger btn-xl js-scroll-trigger" href="#research">Our
+	Research</a>
+      <br>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- People -->
+  <section class="content-section bg-light" id="people">
+    <div class="container text-center">
+      <div class="content-section-heading">
+        <h2 class="mb-5">We Care About Software Quality</h2>
+	<div class="row">
+	  <div class="col-sm-12 text-left">
+	    <hr />
+
+	    <p><strong>squaresLab</strong>, at <a href="https://http://www.cs.cmu.edu/">Carnegie Mellon's School of Computer
+		Science</a>, focuses on <strong>S</strong>oftware <strong>QUA</strong>lity in
+	      <strong>R</strong>eal <strong>E</strong>volving <strong>S</strong>ystems.* We do research in automated techniques to
+	      reason about, assure, measure and then improve the quality of real, messy,
+	      ever-changing software.</p>
+
+	    <p>Our public projects can be found at <a href="https://github.com/squaresLab">squaresLab
+		GitHub</a></p>
+
+	    <p>squaresLab@CMU is led by (Assistant) Professor <a href="http://www.clairelegoues.com">Claire Le
+		Goues</a>, and also includes:</p>
+
+	    <ul style="list-style: none;">
+	      <li><a href="http://www.christimperley.co.uk">Chris Timperley</a>, Systems Scientist</li>
+
+	      <li><a href="http://www.cs.cmu.edu/~dskatz/">Deby Katz</a></li>
+
+	      <li><a href="http://www.andrew.cmu.edu/user/zfc/">Zack Coker</a></li>
+
+	      <li><a href="http://www.cs.cmu.edu/~rvantond/">Rijnard van Tonder</a></li>
+
+	      <li><a href="http://www.cs.cmu.edu/~msotogon/">Mauricio Soto</a></li>
+
+	      <li><a href="http://www.cs.cmu.edu/~afsoona">Afsoon Afzal</a></li>
+
+	      <li><a href="http://kinneerc.github.io">Cody Kinneer</a></li>
+
+	      <li><a href="http://www.cs.cmu.edu/~jlacomis/">Jeremy Lacomis</a></li>
+	    </ul>
+
+	    <p>Past visiting students include:</p>
+
+	    <ul class="list-style: none;">
+	      <li>Xuan Bach Le Dinh, Singapore Management University</li>
+
+	      <li><a href="http://www.mysmu.edu/phdis2012/yuan.tian.2012/">Tian Yuan</a>, Singapore
+		Management University</li>
+
+	      <li><a href="https://sites.google.com/site/lebuitienduy">Le Bui Tien Duy</a>, Singapore
+		Management University</li>
+
+	      <li>Pavneet Singh Kochhar, Singapore Management University</li>
+	    </ul>
+
+	    <p>If you're not sure who to contact, squaresLab can be reached via email: clegoues
+	      at cs dot cmu dot edu</p>
+
+	    <p style="font-size:1rem">*We apologize, sort of, for the egregious backronym.</p>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section class="content-section bg-primary text-white text-center research" id="research">
+    <div class="container">
+      <div class="content-section-heading">
+        <h2 class="mb-5">Research</h2>
+      </div>
+      <div class="row">
+	<div class="col-sm-12 text-left">
+	  <hr />
+	  <p>Here we list our research efforts by subject, linked to the section in the
+	    publication page that further links to the materials associated with each
+	    project. If you can't find something or think we've forgotten anything, please
+	    contact us directly or file an issue with this page at
+	    <a href="https://github.com/squaresLab/squaresLab.github.io">https://github.com/squaresLab/squaresLab.github.io</a>.</p>
+
+	  <hr />
+
+	  <h2 id="programrepair">Program Repair</h2>
+
+	  <p>The error repair process in software systems is, historically, a
+	    resource-consuming task that relies heavily on manual developer effort.
+	    Automatic program repair approaches enable the repair of software with minimum
+	    human interaction mitigating the burden on developers.  We have created and
+	    analyzed existing automatic program repair approaches to improve their
+	    performance and quality of created patches.  This includes sub-areas such
+	    as:</p>
+
+	  <h4 id="genprog">GenProg</h4>
+
+	  <p>GenProg combines stochastic search methods like genetic programming with
+	    lightweight program analyses to find patches for real bugs in extant
+	    software. The <a href="https://squareslab.github.io/genprog-code">GenProg
+	      website</a> covers most GenProg-related research, with links to the various
+	    GitHub repositories, results, and reproduction instructions.</p>
+
+	  <h4 id="searchrepair">SearchRepair</h4>
+
+	  <p>SearchRepair extends and uses semantic code search over large repositories of
+	    candidate code bases to produce high-quality bug patches.</p>
+
+	  <h4 id="repairbox">RepairBox</h4>
+
+	  <p><a href="https://github.com/squaresLab/RepairBox">RepairBox</a> is an ongoing
+	    effort to provide a series of controlled environments for performing experiments
+	    on buggy C programs, particularly for program repair; it supports a number of
+	    bug scenarios from existing datasets, including ManyBugs.  We are especially
+	    working to transition as many of the ManyBugs scenarios as possible to be
+	    reproducible in modern environments (no more relying on Fedora 13!), primarily
+	    through the use of Docker.</p>
+
+	  <h4 id="improvingpatchquality">Improving Patch Quality</h4>
+
+	  <p>A problem automatic program repair approaches commonly suffer is generating
+	    low-quality patches which overfit to one program specification as described by
+	    the guiding test suite, thus not generalizing to an independent oracle
+	    evaluation.  Our work proposes a set of mechanisms to incentivize the creation
+	    of high-quality patches.</p>
+
+	  <p><strong>Program Repair Related Publications:</strong> FIXME: {% bibliography --query @*[project~=robots] %}</p>
+
+	  <h4 id="manybugsandintroclass">ManyBugs and IntroClass</h4>
+
+	  <p>ManyBugs and IntroClass are benchmarks intended to support evaluations of
+	    program repair research. More info at
+	    the <a href="http://repairbenchmarks.cs.umass.edu/">repairbenchmarks
+	      site</a>.</p>
+
+	  <p><strong>Related Publications:</strong></p>
+
+	  <ul>
+	    <li><a href="/publications/#LeGouesManyBugs2015">The ManyBugs and IntroClass
+		Benchmarks for Automated Repair of C Programs</a></li>
+	  </ul>
+
+	  <h2 id="roboticssoftwareqabugtesting">Robotics Software QA/Bug Testing</h2>
+
+	  <p>Robotics and autonomous systems are becoming increasingly prevalent. These
+	    systems present new quality assurance challenges. </p>
+
+	  <p><strong>Related Publications</strong> {% bibliography --query
+	    @*[project~=robots] %}</p>
+
+	  <h2 id="understandingdevelopmenterpractices">Understanding Develop[ment/er]
+	    Practices</h2>
+
+	  <p>Software developers work on difficult problems in complex software
+	    situations.  Tools that reduce the complexity of software development can
+	    improve both the quality of the developed software and reduce the time required
+	    to create the software.  To produce tools that are useful to developers, it is
+	    important to understand current software development practices. Our group
+	    studies developers and produced software to understand both the current state of
+	    software quality and which factors affect software quality. We then produce
+	    tools to advance the current state of software quality.</p>
+
+	  <p><strong>Related Publications:</strong> {% bibliography --query
+	    @*[project~=develop] %}</p>
+
+	  <h2 id="aisearchbasedsoftwareengineering">AI / Search-based Software
+	    Engineering</h2>
+
+	  <p>We are broadly interested in applying AI methods, including search-based
+	    approaches, to improve the engineering of software. In particular, we
+	    investigate applying these approaches to self-adaptive systems to enable complex
+	    software systems to autonomously respond to changes in their environments more
+	    effectively, although this category also includes smaller projects employing
+	    these approaches that don't fit neatly into other projects.</p>
+
+	  <p><strong>Related Publications:</strong> {% bibliography --query
+	    @*[project~=ai-sbe] %}</p>
+	</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section class="content-section bg-light" id="people">
+<div class="container">
+      <h1 id="publications">Publications</h1>
+
+<p><strong><em>Note on citing</em></strong>:
+<em>By default, Bibtex will butcher Claire’s last name (turning her into Goues,
+C.L.); we always appreciate judiciously applied brackets (<code class="highlighter-rouge">{Le Goues}</code>) or a
+non-breaking space (<code class="highlighter-rouge">Le~Goues</code>). We have found that a combination of the two
+(<code class="highlighter-rouge">{Le~Goues}</code>) seems to work best.</em></p>
+
+<div class="row">
+  <div class="col-sm-12">
+<h2 class="bibliography">2019</h2>
+<div class="bibliography" reversed="reversed"><span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="MARS2019"><b>Model-Based Adaptation for Robotics Software</b>, J. Aldrich, D. Garlan, C. Kaestner, C. Le&nbsp;Goues, A. Mohseni-Kabir, I. Ruchkin, S. Samuel, B. Schmerl, C. S. Timperley, M. Veloso, I. Voysey, J. Biswas, A. Guha, J. Holtz, J. Camara, and P. Jamshidi, <i>IEEE Software</i>, vol. 36, no. 2, pp. 83–90, Mar. 2019.</span>
+        </div>
+        <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/MS.2018.2885058"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-MARS2019').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-MARS2019" style="display:
+                                                                     none;">@article{MARS2019,
+  author = {{Aldrich}, J. and {Garlan}, D. and {Kaestner}, C. and {Le~Goues}, C. and {Mohseni-Kabir}, A. and {Ruchkin}, I. and {Samuel}, S. and {Schmerl}, B. and {Timperley}, C. S. and {Veloso}, M. and {Voysey}, I. and {Biswas}, J. and {Guha}, A. and {Holtz}, J. and {Camara}, J. and {Jamshidi}, P.},
+  journal = {IEEE Software},
+  title = {Model-Based Adaptation for Robotics Software},
+  year = {2019},
+  volume = {36},
+  number = {2},
+  pages = {83-90},
+  doi = {10.1109/MS.2018.2885058},
+  month = mar,
+  month_numeric = {3}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="MorenoDART2019"><b>DARTSim: An Exemplar for Evaluation and Comparison of Self-Adaptation Approaches for Smart Cyber-Physical Systems</b>, Gabriel A. Moreno, Cody Kinneer, Ashutosh Pandey, and David Garlan, in <i>Proceedings of the 14th International Conference on Software Engineering for Adaptive and Self-Managing Systems</i>, <i>To Appear SEAMS ’19</i>, 2019.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/MorenoDART2019.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-MorenoDART2019').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-MorenoDART2019" style="display:
+                                                                     none;">@inproceedings{MorenoDART2019,
+  author = {Moreno, Gabriel A. and Kinneer, Cody and Pandey, Ashutosh and Garlan, David},
+  title = {DARTSim: An Exemplar for Evaluation and Comparison of Self-Adaptation Approaches for Smart Cyber-Physical Systems},
+  booktitle = {Proceedings of the 14th International Conference on Software Engineering for Adaptive and Self-Managing Systems},
+  series = {To Appear SEAMS '19},
+  year = {2019},
+  location = {Montreal, Canada},
+  numpages = {7},
+  publisher = {IEEE},
+  project = {ai-sbe}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="DingLyuGI2019"><b>Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair</b>, Zhen&nbsp;Yu Ding, Yiwei Lyu, Christopher S. Timperley, and Claire Le&nbsp;Goues, in <i>Genetic Improvement Workshop</i>, <i>To Appear GI ’19</i>, 2019.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/DingLyuGI2019.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-DingLyuGI2019').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-DingLyuGI2019" style="display:
+                                                                     none;">@inproceedings{DingLyuGI2019,
+  author = {Ding, {Zhen~Yu} and Lyu, Yiwei and Timperley, Christopher S. and {Le~Goues}, Claire},
+  title = {Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair},
+  booktitle = {Genetic Improvement Workshop},
+  series = {To Appear GI '19},
+  year = {2019},
+  project = {repair}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span></div>
+<h2 class="bibliography">2018</h2>
+<div class="bibliography" reversed="reversed"><span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="deSouzaFitness2018"><b>A Novel Fitness Function for Automated Program Repair Based on
+                  Source Code Checkpoints</b>, Eduardo Faria de&nbsp;Souza, Claire Le&nbsp;Goues, and Celso Goncalves Camilo-Junior, in <i>Proceedings of the Genetic and Evolutionary Computation
+                  Conference</i>, <i>GECCO ’18</i>, 2018, pp. 1443–1450.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/deSouzaFitness2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-deSouzaFitness2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-deSouzaFitness2018" style="display:
+                                                                     none;">@inproceedings{deSouzaFitness2018,
+  author = {{de~Souza}, Eduardo Faria and {Le~Goues}, Claire and Camilo-Junior, Celso Goncalves},
+  title = {A Novel Fitness Function for Automated Program Repair Based on
+                    Source Code Checkpoints},
+  year = {2018},
+  publisher = {ACM},
+  booktitle = {Proceedings of the Genetic and Evolutionary Computation
+                    Conference},
+  series = {GECCO '18},
+  location = {Kyoto, Japan},
+  month = jul,
+  pages = {1443--1450},
+  project = {repair},
+  month_numeric = {7}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="LeGouesDoubleBlind2018"><b>Effectiveness of Anonymization in Double-Blind Review</b>, Claire Le&nbsp;Goues, Yuriy Brun, Sven Apel, Emery Berger, Sarfraz Khurshid, and Yannis Smaragdakis, <i>Commun. ACM</i>, vol. 61, no. 6, pp. 30–33, Jun. 2018.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/LeGouesDoubleBlind2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3208157"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-LeGouesDoubleBlind2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-LeGouesDoubleBlind2018" style="display:
+                                                                     none;">@article{LeGouesDoubleBlind2018,
+  author = {{Le~Goues}, Claire and Brun, Yuriy and Apel, Sven and Berger, Emery and Khurshid, Sarfraz and Smaragdakis, Yannis},
+  title = {Effectiveness of Anonymization in Double-Blind Review},
+  journal = {Commun. ACM},
+  year = {2018},
+  month = jun,
+  volume = {61},
+  number = {6},
+  pages = {30--33},
+  doi = {10.1145/3208157},
+  month_numeric = {6}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="vanTonderHeapProperties2018"><b>Static Automated Program Repair for Heap Properties</b>, Rijnard van&nbsp;Tonder and Claire Le&nbsp;Goues, in <i>International Conference on Software Engineering</i>, <i>ICSE ’18</i>, 2018, pp. 151–162.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/vanTonderHeapProperties2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="/materials/vanTonderHeapProperties2018.slides.pdf"><i class="fas fa-chart-pie"></i>
+          Slides (PDF)</a>
+        </span>
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/footpatch"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3180155.3180250"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-vanTonderHeapProperties2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-vanTonderHeapProperties2018" style="display:
+                                                                     none;">@inproceedings{vanTonderHeapProperties2018,
+  title = {Static Automated Program Repair for Heap Properties},
+  author = {{van~Tonder}, Rijnard and {Le~Goues}, Claire},
+  booktitle = {International Conference on Software Engineering},
+  series = {ICSE '18},
+  pages = {151--162},
+  month = may,
+  year = {2018},
+  publisher = {ACM},
+  location = {Gothenburg, Sweden},
+  doi = {10.1145/3180155.3180250},
+  project = {repair},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="HutchisonRobustness2018"><b>Robustness Testing of Autonomy Software</b>, Casidhe Hutchison, Milda Zizyte, Patrick E. Lanigan, David Guttendorf, Michael Wagner, Claire Le&nbsp;Goues, and Philip Koopman, in <i>International Conference on Software Engineering: Software
+                  Engineering in Practice</i>, <i>ICSE SEIP ’18</i>, 2018, pp. 276–285.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/HutchisonRobustness2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3183519.3183534"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-HutchisonRobustness2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-HutchisonRobustness2018" style="display:
+                                                                     none;">@inproceedings{HutchisonRobustness2018,
+  title = {Robustness Testing of Autonomy Software},
+  author = {Hutchison, Casidhe and Zizyte, Milda and Lanigan, Patrick E. and Guttendorf, David and Wagner, Michael and {Le~Goues}, Claire and Koopman, Philip},
+  booktitle = {International Conference on Software Engineering: Software
+                    Engineering in Practice},
+  series = {ICSE SEIP '18},
+  year = {2018},
+  month = may,
+  location = {Gothenburg, Sweden},
+  pages = {276--285},
+  doi = {10.1145/3183519.3183534},
+  publisher = {ACM},
+  project = {robots},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="TimperleyBugZooPoster2018"><b>Poster: BugZoo: A Platform for Studying Software Bugs</b>, Christopher Steven Timperley, Susan Stepney, and Claire Le&nbsp;Goues, in <i>International Conference on Software Engineering: Companion
+                  Proceedings</i>, <i>ICSE Poster ’18</i>, 2018, pp. 446–447.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/TimperleyBugZooPoster2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="/materials/TimperleyBugZooPoster2018.poster.pdf"><i class="far fa-list-alt"></i> Poster</a>
+        </span>
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3183440.3195050"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-TimperleyBugZooPoster2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-TimperleyBugZooPoster2018" style="display:
+                                                                     none;">@inproceedings{TimperleyBugZooPoster2018,
+  title = {Poster: BugZoo: A Platform for Studying Software Bugs},
+  author = {Timperley, Christopher Steven and Stepney, Susan and {Le~Goues}, Claire},
+  booktitle = {International Conference on Software Engineering: Companion
+                    Proceedings},
+  series = {ICSE Poster '18},
+  pages = {446--447},
+  doi = {10.1145/3183440.3195050},
+  publisher = {ACM},
+  month = may,
+  year = {2018},
+  location = {Gothenburg, Sweden},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="SotoMSRChallenge2018"><b>Common Statement Kind Changes to Inform Automatic Program
+                  Repair</b>, Mauricio Soto and Claire Le&nbsp;Goues, in <i>International Conference on Mining Software Repositories</i>, <i>MSR Challenge ’18</i>, 2018.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/SotoMSRChallenge2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/ChallengeMau_MSRChallenge2018"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3196398.3196472"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-SotoMSRChallenge2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-SotoMSRChallenge2018" style="display:
+                                                                     none;">@inproceedings{SotoMSRChallenge2018,
+  title = {Common Statement Kind Changes to Inform Automatic Program
+                    Repair},
+  author = {Soto, Mauricio and {Le~Goues}, Claire},
+  booktitle = {International Conference on Mining Software Repositories},
+  series = {MSR Challenge '18},
+  doi = {10.1145/3196398.3196472},
+  month = may,
+  year = {2018},
+  location = {Gothenburg, Sweden},
+  project = {repair},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="AfzalMSRChallenge2018"><b>A Study on the Use of IDE Features for Debugging</b>, Afsoon Afzal and Claire Le&nbsp;Goues, in <i>International Conference on Mining Software Repositories</i>, <i>MSR Challenge ’18</i>, 2018.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/AfzalMSRChallenge2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3196398.3196468"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-AfzalMSRChallenge2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-AfzalMSRChallenge2018" style="display:
+                                                                     none;">@inproceedings{AfzalMSRChallenge2018,
+  title = {A Study on the Use of IDE Features for Debugging},
+  author = {Afzal, Afsoon and {Le~Goues}, Claire},
+  booktitle = {International Conference on Mining Software Repositories},
+  series = {MSR Challenge '18},
+  doi = {10.1145/3196398.3196468},
+  month = may,
+  year = {2018},
+  location = {Gothenburg, Sweden},
+  project = {develop},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="XuanBachOverfittingJF2018"><b>Overfitting in Semantics-Based Automated Program Repair</b>, Xuan-Bach D. Le, Ferdian Thung, David Lo, and Claire Le&nbsp;Goues, in <i>International Conference on Software Engineering</i>, <i>ICSE (Journal First) ’18</i>, 2018, p. 163.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/XuanBachOverfittingJF2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3180155.3182536"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-XuanBachOverfittingJF2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-XuanBachOverfittingJF2018" style="display:
+                                                                     none;">@inproceedings{XuanBachOverfittingJF2018,
+  title = {Overfitting in Semantics-Based Automated Program Repair},
+  author = {Le, Xuan-Bach D. and Thung, Ferdian and Lo, David and {Le~Goues}, Claire},
+  booktitle = {International Conference on Software Engineering},
+  series = {ICSE (Journal First) '18},
+  pages = {163},
+  publisher = {ACM},
+  doi = {10.1145/3180155.3182536},
+  year = {2018},
+  month = may,
+  location = {Gothenburg, Sweden},
+  project = {repair},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="TimperleyCrashing2018"><b>Crashing Simulated Planes is Cheap: Can Simulation Detect
+                  Robotics Bugs Early?</b>, Christopher Steven Timperley, Afsoon Afzal, Deborah Katz, Jam Marcos Hernandez, and Claire Le&nbsp;Goues, in <i>International Conference on Software Testing, Validation and
+                  Verification</i>, <i>ICST ’18</i>, 2018, pp. 331–342.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/TimperleyCrashing2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/ArduBugs"><i class="fas fa-database"></i> Data</a>
+        </span>
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/ICST.2018.00040"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-TimperleyCrashing2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-TimperleyCrashing2018" style="display:
+                                                                     none;">@inproceedings{TimperleyCrashing2018,
+  title = {Crashing Simulated Planes is Cheap: {C}an Simulation Detect
+                    Robotics Bugs Early?},
+  author = {Timperley, Christopher Steven and Afzal, Afsoon and Katz, Deborah and Hernandez, Jam Marcos and {Le~Goues}, Claire},
+  booktitle = {International Conference on Software Testing, Validation and
+                    Verification},
+  series = {ICST '18},
+  pages = {331--342},
+  location = {V{\"{a}}ster{\aa}s, Sweden},
+  doi = {10.1109/ICST.2018.00040},
+  year = {2018},
+  month = apr,
+  project = {robots},
+  month_numeric = {4}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="XuanBachOverfitting2018"><b>Overfitting in Semantics-based Automated Program Repair</b>, Xuan-Bach D. Le, Ferdian Thung, David Lo, and Claire Le&nbsp;Goues, <i>Empirical Software Engineering</i>, Mar. 2018.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/XuanBachOverfitting2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1007/s10664-017-9577-2"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-XuanBachOverfitting2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-XuanBachOverfitting2018" style="display:
+                                                                     none;">@article{XuanBachOverfitting2018,
+  title = {Overfitting in Semantics-based Automated Program Repair},
+  author = {Le, Xuan-Bach D. and Thung, Ferdian and Lo, David and {Le~Goues}, Claire},
+  journal = {Empirical Software Engineering},
+  year = {2018},
+  month = mar,
+  doi = {10.1007/s10664-017-9577-2},
+  project = {repair},
+  month_numeric = {3}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="SotoProbabilistic2018"><b>Using a Probabilistic Model to Predict Bug Fixes</b>, Mauricio Soto and Claire Le&nbsp;Goues, in <i>International Conference on Software Analysis, Evolution, and
+                  Reengineering</i>, <i>SANER ’18</i>, 2018, pp. 221–231.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/SotoProbabilistic2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/ProbabilisticModelSaner2018"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/SANER.2018.8330211"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-SotoProbabilistic2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-SotoProbabilistic2018" style="display:
+                                                                     none;">@inproceedings{SotoProbabilistic2018,
+  title = {Using a Probabilistic Model to Predict Bug Fixes},
+  author = {Soto, Mauricio and {Le~Goues}, Claire},
+  booktitle = {International Conference on Software Analysis, Evolution, and
+                    Reengineering},
+  series = {SANER '18},
+  month = mar,
+  year = {2018},
+  location = {Campobasso, Italy},
+  pages = {221--231},
+  doi = {10.1109/SANER.2018.8330211},
+  project = {repair},
+  month_numeric = {3}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="LacomisSMTRenaming2018"><b>Statistical Machine Translation is a Natural Fit for
+                  Identifier Renaming in Software Source Code</b>, Jeremy Lacomis, Alan Jaffe, Edward J. Schwartz, Claire Le&nbsp;Goues, and Bogdan Vasilescu, in <i>Statistical Modeling of Natural Software Corpora, 2018 AAAI
+                  Workshop</i>, 2018, pp. 771–774.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/LacomisSMTRenaming2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-LacomisSMTRenaming2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-LacomisSMTRenaming2018" style="display:
+                                                                     none;">@inproceedings{LacomisSMTRenaming2018,
+  author = {Lacomis, Jeremy and Jaffe, Alan and Schwartz, Edward J. and {Le~Goues}, Claire and Vasilescu, Bogdan},
+  title = {Statistical Machine Translation is a Natural Fit for
+                    Identifier Renaming in Software Source Code},
+  booktitle = {Statistical Modeling of Natural Software Corpora, 2018 {AAAI}
+                    Workshop},
+  year = {2018},
+  month = feb,
+  pages = {771--774},
+  month_numeric = {2}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="OliveiraRepresentation2018"><b>Improved Representation and Genetic Operators for Linear
+                  Genetic Programming for Automated Program Repair</b>, Vinicius Paulo L. Oliveira, Eduardo F. Souza, Claire Le&nbsp;Goues, and Celso G. Camilo-Junior, <i>Empirical Software Engineering</i>, Jan. 2018.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/OliveiraRepresentation2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1007/s10664-017-9562-9"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-OliveiraRepresentation2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-OliveiraRepresentation2018" style="display:
+                                                                     none;">@article{OliveiraRepresentation2018,
+  title = {Improved Representation and Genetic Operators for Linear
+                    Genetic Programming for Automated Program Repair},
+  author = {Oliveira, Vinicius Paulo L. and Souza, Eduardo F. and {Le~Goues}, Claire and Camilo-Junior, Celso G.},
+  journal = {Empirical Software Engineering},
+  month = jan,
+  year = {2018},
+  doi = {10.1007/s10664-017-9562-9},
+  project = {repair},
+  month_numeric = {1}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="WeintropCoBlox2018"><b>Evaluating CoBlox: A Comparative Study of Robotics Programming Environments
+           for Adult Novices</b>, David Weintrop, Afsoon Afzal, Jean Salac, Patrick Francis, Boyang Li, David C. Shepherd, and Diana Franklin, in <i>Conference on Human Factors in Computing Systems</i>, <i>CHI ’18</i>, 2018, p. 366.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/WeintropCoBlox2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3173574.3173940"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-WeintropCoBlox2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-WeintropCoBlox2018" style="display:
+                                                                     none;">@inproceedings{WeintropCoBlox2018,
+  title = {Evaluating CoBlox: A Comparative Study of Robotics Programming Environments
+             for Adult Novices},
+  author = {Weintrop, David and Afzal, Afsoon and Salac, Jean and Francis, Patrick and Li, Boyang and Shepherd, David C. and Franklin, Diana},
+  booktitle = {Conference on Human Factors in Computing Systems},
+  pages = {366},
+  year = {2018},
+  series = {CHI '18},
+  doi = {10.1145/3173574.3173940},
+  location = {Montreal, Canada},
+  project = {robots}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="KinneerDissimilarity2018"><b>Dissimilarity Measures for Clustering Space Mission Architectures</b>, Cody Kinneer and Sebastian J. I. Herzig, in <i>Proceedings of the 21th ACM/IEEE International Conference on Model
+               Driven Engineering Languages and Systems, MODELS 2018, Copenhagen,
+               Denmark, October 14-19, 2018</i>, 2018, pp. 392–402.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/KinneerDissimilarity2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="/materials/KinneerDissimilarity2018.slides.pdf"><i class="fas fa-chart-pie"></i>
+          Slides (PDF)</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3239372.3239390"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-KinneerDissimilarity2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-KinneerDissimilarity2018" style="display:
+                                                                     none;">@inproceedings{KinneerDissimilarity2018,
+  author = {Kinneer, Cody and Herzig, Sebastian J. I.},
+  title = {Dissimilarity Measures for Clustering Space Mission Architectures},
+  booktitle = {Proceedings of the 21th {ACM/IEEE} International Conference on Model
+                 Driven Engineering Languages and Systems, {MODELS} 2018, Copenhagen,
+                 Denmark, October 14-19, 2018},
+  pages = {392--402},
+  year = {2018},
+  crossref = {DBLP:conf/models/2018},
+  url = {http://doi.acm.org/10.1145/3239372.3239390},
+  doi = {10.1145/3239372.3239390},
+  timestamp = {Tue, 16 Oct 2018 10:17:16 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/models/KinneerH18},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  project = {ai-sbe}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="vanTonderSCB2018"><b>Semantic Crash Bucketing</b>, Rijnard van&nbsp;Tonder, John Kotheimer, and Claire Le&nbsp;Goues, in <i>International Conference on Automated Software Engineering</i>, <i>ASE ’18</i>, 2018.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/vanTonderSCB2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="/materials/vanTonderSCB2018.slides.pdf"><i class="fas fa-chart-pie"></i>
+          Slides (PDF)</a>
+        </span>
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/SemanticCrashBucketing"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3238147.3238200"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-vanTonderSCB2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-vanTonderSCB2018" style="display:
+                                                                     none;">@inproceedings{vanTonderSCB2018,
+  author = {{van~Tonder}, Rijnard and Kotheimer, John and {Le~Goues}, Claire},
+  title = {Semantic Crash Bucketing},
+  booktitle = {International Conference on Automated Software Engineering},
+  series = {ASE '18},
+  year = {2018},
+  doi = {10.1145/3238147.3238200}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="JaffeDecompilerNames2018"><b>Meaningful Variable Names for Decompiled Code: A Machine
+                  Translation Approach</b>, Alan Jaffe, Jeremy Lacomis, Edward J. Schwartz, Claire Le&nbsp;Goues, and Bogdan Vasilescu, in <i>International Conference on Program Comprehension</i>, <i>ICPC ’18</i>, 2018, pp. 20–30.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/JaffeDecompilerNames2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-JaffeDecompilerNames2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-JaffeDecompilerNames2018" style="display:
+                                                                     none;">@inproceedings{JaffeDecompilerNames2018,
+  author = {Jaffe, Alan and Lacomis, Jeremy and Schwartz, Edward J. and {Le~Goues}, Claire and Vasilescu, Bogdan},
+  title = {Meaningful Variable Names for Decompiled Code: {A} Machine
+                    Translation Approach},
+  booktitle = {International Conference on Program Comprehension},
+  year = {2018},
+  series = {ICPC '18},
+  pages = {20--30}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="AfzalTuringTest2018"><b>A Turing Test for Genetic Improvement</b>, Afsoon Afzal, Jeremy Lacomis, Claire Le&nbsp;Goues, and Christopher S. Timperley, in <i>Genetic Improvement Workshop</i>, <i>GI ’18</i>, 2018, pp. 17–18.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/AfzalTuringTest2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-AfzalTuringTest2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-AfzalTuringTest2018" style="display:
+                                                                     none;">@inproceedings{AfzalTuringTest2018,
+  author = {Afzal, Afsoon and Lacomis, Jeremy and {Le~Goues}, Claire and Timperley, Christopher S.},
+  title = {A Turing Test for Genetic Improvement},
+  booktitle = {Genetic Improvement Workshop},
+  year = {2018},
+  series = {GI '18},
+  pages = {17--18}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="KinneerManaging2018"><b>Managing Uncertainty in Self-Adaptive Systems with Plan Reuse
+                  and Stochastic Search</b>, Cody Kinneer, Zack Coker, Jiacheng Wang, David Garlan, and Claire Le&nbsp;Goues, in <i>Software Engineering for Adaptive and Self-Managing Systems</i>, <i>SEAMS ’18</i>, 2018, pp. 40–50.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/KinneerManaging2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="/materials/KinneerManaging2018.slides.pdf"><i class="fas fa-chart-pie"></i>
+          Slides (PDF)</a>
+        </span>
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/ZackC/AdaptiveSystemsGeneticProgrammingPlanner"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3194133.3194145"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-KinneerManaging2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-KinneerManaging2018" style="display:
+                                                                     none;">@inproceedings{KinneerManaging2018,
+  author = {Kinneer, Cody and Coker, Zack and Wang, Jiacheng and Garlan, David and {Le~Goues}, Claire},
+  title = {Managing Uncertainty in Self-Adaptive Systems with Plan Reuse
+                    and Stochastic Search},
+  booktitle = {Software Engineering for Adaptive and Self-Managing Systems},
+  series = {SEAMS '18},
+  year = {2018},
+  pages = {40--50},
+  doi = {10.1145/3194133.3194145},
+  project = {ai-sbe}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="vanTonderLifterSynthesis2018"><b>Cross-Architecture Lifter Synthesis</b>, Rijnard van&nbsp;Tonder and Claire Le&nbsp;Goues, in <i>International Conference on Software Engineering and Formal
+                  Methods</i>, <i>SEFM ’18</i>, 2018, vol. 10886, pp. 155–170.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/vanTonderLifterSynthesis2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="/materials/vanTonderLifterSynthesis2018.slides.pdf"><i class="fas fa-chart-pie"></i>
+          Slides (PDF)</a>
+        </span>
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/SynthLift"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1007/978-3-319-92970-5_10"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-vanTonderLifterSynthesis2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-vanTonderLifterSynthesis2018" style="display:
+                                                                     none;">@inproceedings{vanTonderLifterSynthesis2018,
+  author = {{van~Tonder}, Rijnard and {Le~Goues}, Claire},
+  title = {Cross-Architecture Lifter Synthesis},
+  booktitle = {International Conference on Software Engineering and Formal
+                    Methods},
+  year = {2018},
+  pages = {155--170},
+  location = {Toulouse, France},
+  publisher = {Springer},
+  doi = {10.1007/978-3-319-92970-5_10},
+  series = {SEFM '18},
+  volume = {10886}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="DagstuhlGI2018"><b>Genetic Improvement of Software (Dagstuhl Seminar 18052)</b>, Justyna Petke, Claire Le&nbsp;Goues, Stephanie Forrest, and William B. Langdon, <i>Dagstuhl Reports</i>, vol. 8, no. 1, pp. 158–182, 2018.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/DagstuhlGI2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.4230/DagRep.8.1.158"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-DagstuhlGI2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-DagstuhlGI2018" style="display:
+                                                                     none;">@article{DagstuhlGI2018,
+  author = {Petke, Justyna and {Le~Goues}, Claire and Forrest, Stephanie and Langdon, William B.},
+  title = {Genetic Improvement of Software (Dagstuhl Seminar 18052)},
+  pages = {158--182},
+  journal = {Dagstuhl Reports},
+  issn = {2192-5283},
+  year = {2018},
+  volume = {8},
+  number = {1},
+  editor = {Petke, Justyna and {Le~Goues}, Claire and Forrest, Stephanie and Langdon, William B.},
+  publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address = {Dagstuhl, Germany},
+  doi = {10.4230/DagRep.8.1.158},
+  project = {repair}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="KatzRNN2018"><b>Using Recurrent Neural Networks for Decompilation</b>, Deborah S. Katz, Jason Ruchti, and Eric Schulte, in <i>Software Analysis, Evolution, and Reengineering</i>, <i>SANER ’18</i>, 2018, pp. 346–356.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/KatzRNN2018.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="/materials/KatzRNN2018.slides.pdf"><i class="fas fa-chart-pie"></i>
+          Slides (PDF)</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/SANER.2018.8330222"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-KatzRNN2018').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-KatzRNN2018" style="display:
+                                                                     none;">@inproceedings{KatzRNN2018,
+  author = {Katz, Deborah S. and Ruchti, Jason and Schulte, Eric},
+  title = {Using Recurrent Neural Networks for Decompilation},
+  booktitle = {Software Analysis, Evolution, and Reengineering},
+  year = {2018},
+  series = {SANER '18},
+  pages = {346--356},
+  location = {Campobasso, Italy},
+  doi = {10.1109/SANER.2018.8330222}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span></div>
+<h2 class="bibliography">2017</h2>
+<div class="bibliography" reversed="reversed"><span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="TimperleyMBFL2017"><b>An Investigation into the Use of Mutation Analysis for
+                  Automated Program Repair</b>, Christopher Steven Timperley, Susan Stepney, and Claire Le&nbsp;Goues, in <i>International Symposium on Search Based Software Engineering</i>, <i>SSBSE ’17</i>, 2017, vol. 10452, pp. 99–114.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/TimperleyMBFL2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1007/978-3-319-66299-2_7"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-TimperleyMBFL2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-TimperleyMBFL2017" style="display:
+                                                                     none;">@inproceedings{TimperleyMBFL2017,
+  author = {Timperley, Christopher Steven and Stepney, Susan and {Le~Goues}, Claire},
+  title = {An Investigation into the Use of Mutation Analysis for
+                    Automated Program Repair},
+  booktitle = {International Symposium on Search Based Software Engineering},
+  pages = {99--114},
+  doi = {10.1007/978-3-319-66299-2_7},
+  month = sep,
+  year = {2017},
+  location = {Paderborn, Germany},
+  series = {SSBSE '17},
+  volume = {10452},
+  publisher = {Springer},
+  project = {repair},
+  month_numeric = {9}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="XuanBachS32017"><b>S3: Syntax- and Semantic-Guided Repair Synthesis via
+                  Programming by Examples</b>, Xuan-Bach D. Le, Duc Hiep Chu, David Lo, Claire Le&nbsp;Goues, and Willem Visser, in <i>Joint Meeting of the European Software Engineering Conference
+                  and the Symposium on the Foundations of Software Engineering</i>, <i>ESEC/FSE ’17</i>, 2017, pp. 593–604.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/XuanBachS32017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3106237.3106309"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-XuanBachS32017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-XuanBachS32017" style="display:
+                                                                     none;">@inproceedings{XuanBachS32017,
+  author = {Le, Xuan-Bach D. and Chu, Duc Hiep and Lo, David and {Le~Goues}, Claire and Visser, Willem},
+  title = {S3: Syntax- and Semantic-Guided Repair Synthesis via
+                    Programming by Examples},
+  booktitle = {Joint Meeting of the European Software Engineering Conference
+                    and the Symposium on the Foundations of Software Engineering},
+  series = {ESEC/FSE '17},
+  doi = {10.1145/3106237.3106309},
+  location = {Paderborn, Germany},
+  publisher = {{ACM}},
+  pages = {593--604},
+  year = {2017},
+  month = sep,
+  project = {repair},
+  month_numeric = {9}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="XuanBachJFIX2017"><b>JFIX: Semantics-Based Repair of Java programs via Symbolic
+                  PathFinder</b>, Xuan-Bach D. Le, Duc Hiep Chu, David Lo, Claire Le&nbsp;Goues, and Willem Visser, in <i>International Symposium on Software Testing and Analysis</i>, <i>ISSTA TOOLS ’17</i>, 2017, pp. 376–379.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/XuanBachJFIX2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3092703.3098225"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-XuanBachJFIX2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-XuanBachJFIX2017" style="display:
+                                                                     none;">@inproceedings{XuanBachJFIX2017,
+  author = {Le, Xuan-Bach D. and Chu, Duc Hiep and Lo, David and {Le~Goues}, Claire and Visser, Willem},
+  title = {{JFIX}: {S}emantics-Based Repair of {J}ava programs via Symbolic
+                    Path{F}inder},
+  booktitle = {International Symposium on Software Testing and Analysis},
+  series = {ISSTA TOOLS '17},
+  pages = {376--379},
+  location = {Santa Barbara, CA, USA},
+  doi = {10.1145/3092703.3098225},
+  month = jul,
+  year = {2017},
+  publisher = {ACM},
+  project = {repair},
+  month_numeric = {7}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="OmarSemantic2017"><b>Toward Semantic Foundations for Program Editors</b>, Cyrus Omar, Ian Voysey, Michael Hilton, Joshua Sunshine, Claire Le&nbsp;Goues, Jonathan Aldrich, and Matthew Hammer, in <i>Summit on Advances in Programming Languages</i>, <i>SNAPL ’17</i>, 2017, pp. 11:1–11:12.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/OmarSemantic2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.4230/LIPIcs.SNAPL.2017.11"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-OmarSemantic2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-OmarSemantic2017" style="display:
+                                                                     none;">@inproceedings{OmarSemantic2017,
+  author = {Omar, Cyrus and Voysey, Ian and Hilton, Michael and Sunshine, Joshua and {Le~Goues}, Claire and Aldrich, Jonathan and Hammer, Matthew},
+  title = {Toward Semantic Foundations for Program Editors},
+  booktitle = {Summit on Advances in Programming Languages},
+  series = {SNAPL '17},
+  doi = {10.4230/LIPIcs.SNAPL.2017.11},
+  pages = {11:1--11:12},
+  month = may,
+  year = {2017},
+  location = {Asilomar, CA, USA},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="SotoMSRChallenge2017"><b>Analyzing the Impact of Social Attributes on Commit
+                  Integration Success</b>, Mauricio Soto, Zack Coker, and Claire Le&nbsp;Goues, in <i>International Conference on Mining Software Repositories</i>, <i>MSR Challenge ’17</i>, 2017, pp. 483–486.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/SotoMSRChallenge2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/MSR-challenge-2017"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/MSR-challenge-2017"><i class="fas fa-database"></i> Data</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/squaresLab/MSR-challenge-2017"><i class="fas fa-chart-line"></i> Results</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/MSR.2017.34"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-SotoMSRChallenge2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-SotoMSRChallenge2017" style="display:
+                                                                     none;">@inproceedings{SotoMSRChallenge2017,
+  author = {Soto, Mauricio and Coker, Zack and {Le~Goues}, Claire},
+  title = {Analyzing the Impact of Social Attributes on Commit
+                    Integration Success},
+  booktitle = {International Conference on Mining Software Repositories},
+  series = {MSR Challenge ’17},
+  year = {2017},
+  pages = {483--486},
+  doi = {10.1109/MSR.2017.34},
+  project = {develop}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="CokerBehavior2017"><b>Behavior Metrics for Prioritizing Investigations of
+                  Exceptions</b>, Zack Coker, Kostadin Damevski, Claire Le&nbsp;Goues, Nicholas A. Kraft, David Shepherd, and Lori Pollock, in <i>International Conference on Software Maintenance and
+                  Evolution</i>, <i>ICSME ’17</i>, 2017, pp. 554–563.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/CokerBehavior2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+        · <span class="refs-link">
+          <a href="/materials/CokerBehavior2017.slides.pptx"><i class="fas fa-chart-pie"></i>
+          Slides (PowerPoint)</a>
+        </span>
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/ICSME.2017.62"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-CokerBehavior2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-CokerBehavior2017" style="display:
+                                                                     none;">@inproceedings{CokerBehavior2017,
+  author = {Coker, Zack and Damevski, Kostadin and {Le~Goues}, Claire and Kraft, Nicholas A. and Shepherd, David and Pollock, Lori},
+  title = {Behavior Metrics for Prioritizing Investigations of
+                    Exceptions},
+  booktitle = {International Conference on Software Maintenance and
+                    Evolution},
+  series = {ICSME '17},
+  year = {2017},
+  pages = {554--563},
+  doi = {10.1109/ICSME.2017.62},
+  project = {develop}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="LeGouesGuest2017"><b>Guest Editorial for Special Section on Research in
+                  Search-Based Software Engineering</b>, Claire Le&nbsp;Goues and Shin Yoo, <i>Empirical Software Engineering</i>, vol. 22, no. 2, pp. 849–851, 2017.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/LeGouesGuest2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1007/s10664-017-9504-6"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-LeGouesGuest2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-LeGouesGuest2017" style="display:
+                                                                     none;">@article{LeGouesGuest2017,
+  author = {{Le~Goues}, Claire and Yoo, Shin},
+  title = {Guest Editorial for Special Section on Research in
+                    Search-Based Software Engineering},
+  journal = {Empirical Software Engineering},
+  volume = {22},
+  number = {2},
+  pages = {849--851},
+  year = {2017},
+  doi = {10.1007/s10664-017-9504-6}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="LeGouesClarifications2017"><b>Clarifications on the Construction and Use of the ManyBugs
+                  Benchmark (Comment Paper)</b>, Claire Le&nbsp;Goues, Yuriy Brun, Stephanie Forrest, and Westley Weimer, <i>IEEE Transactions on Software Engineering</i>, vol. 43, no. 11, pp. 1089–1090, 2017.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/LeGouesClarifications2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/TSE.2017.2755651"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-LeGouesClarifications2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-LeGouesClarifications2017" style="display:
+                                                                     none;">@article{LeGouesClarifications2017,
+  author = {{Le~Goues}, Claire and Brun, Yuriy and Forrest, Stephanie and Weimer, Westley},
+  journal = {{IEEE} Transactions on Software Engineering},
+  title = {Clarifications on the Construction and Use of the {M}any{B}ugs
+                    Benchmark (Comment Paper)},
+  volume = {43},
+  number = {11},
+  pages = {1089--1090},
+  year = {2017},
+  doi = {10.1109/TSE.2017.2755651},
+  project = {repair}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="DagstuhlAPR2017"><b>Automated Program Repair (Dagstuhl Seminar 17022)</b>, Sunghun Kim, Claire Le&nbsp;Goues, Michael Pradel, and Abhik Roychoudhury, <i>Dagstuhl Reports</i>, vol. 7, no. 1, pp. 19–31, 2017.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/DagstuhlAPR2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.4230/DagRep.7.1.19"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-DagstuhlAPR2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-DagstuhlAPR2017" style="display:
+                                                                     none;">@article{DagstuhlAPR2017,
+  author = {Kim, Sunghun and {Le~Goues}, Claire and Pradel, Michael and Roychoudhury, Abhik},
+  title = {{Automated Program Repair (Dagstuhl Seminar 17022)}},
+  pages = {19--31},
+  journal = {Dagstuhl Reports},
+  issn = {2192-5283},
+  year = {2017},
+  volume = {7},
+  number = {1},
+  editor = {Kim, Sunghun and {Le~Goues}, Claire and Pradel, Michael and Roychoudhury, Abhik},
+  publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address = {Dagstuhl, Germany},
+  doi = {10.4230/DagRep.7.1.19},
+  project = {repair}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="KatzUnderstanding2017"><b>Understanding Intended Behavior using Models of Low-Level Signals</b>, Deborah S. Katz, in <i>International Symposium on Software Testing and Analysis</i>, <i>ISSTA-DS ’17</i>, 2017, pp. 424–427.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/KatzUnderstanding2017.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/3092703.3098237"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-KatzUnderstanding2017').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-KatzUnderstanding2017" style="display:
+                                                                     none;">@inproceedings{KatzUnderstanding2017,
+  author = {Katz, Deborah S.},
+  title = {Understanding Intended Behavior using Models of Low-Level Signals},
+  booktitle = {International Symposium on Software Testing and Analysis},
+  series = {ISSTA-DS '17},
+  year = {2017},
+  pages = {424--427},
+  project = {robots},
+  doi = {10.1145/3092703.3098237}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span></div>
+<h2 class="bibliography">2016</h2>
+<div class="bibliography" reversed="reversed"><span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="OliveiraCrossover2016"><b>Improved Crossover Operators for Genetic Programming for
+                  Program Repair</b>, Vinicius Paulo L. Oliveira, Eduardo F. D. Souza, Claire Le&nbsp;Goues, and Celso G. Camilo-Junior, in <i>International Symposium on Search Based Software Engineering</i>, <i>Lecture Notes in Computer Science</i>, 2016, vol. 9962, pp. 112–127.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/OliveiraCrossover2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1007/978-3-319-47106-8_8"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-OliveiraCrossover2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-OliveiraCrossover2016" style="display:
+                                                                     none;">@inproceedings{OliveiraCrossover2016,
+  author = {Oliveira, Vinicius Paulo L. and Souza, Eduardo F. D. and {Le~Goues}, Claire and Camilo{-}Junior, Celso G.},
+  title = {Improved Crossover Operators for Genetic Programming for
+                    Program Repair},
+  booktitle = {International Symposium on Search Based Software Engineering},
+  series = {Lecture Notes in Computer Science},
+  month = oct,
+  doi = {10.1007/978-3-319-47106-8_8},
+  pages = {112--127},
+  year = {2016},
+  location = {Raleigh, NC, USA},
+  volume = {9962},
+  project = {repair},
+  month_numeric = {10}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="XuanBachDeductive2016"><b>Enhancing Automated Program Repair with Deductive
+                  Verification</b>, Xuan-Bach D. Le, Quang Loc Le, David Lo, and Claire Le&nbsp;Goues, in <i>International Conference on Software Maintenance and Evolution</i>, <i>ICSME ERA ’16</i>, 2016, pp. 428–432.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/XuanBachDeductive2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/ICSME.2016.66"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-XuanBachDeductive2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-XuanBachDeductive2016" style="display:
+                                                                     none;">@inproceedings{XuanBachDeductive2016,
+  author = {Le, Xuan-Bach D. and Le, Quang Loc and Lo, David and {Le~Goues}, Claire},
+  title = {Enhancing Automated Program Repair with Deductive
+                    Verification},
+  booktitle = {International Conference on Software Maintenance and Evolution},
+  series = {ICSME ERA '16},
+  doi = {10.1109/ICSME.2016.66},
+  pages = {428--432},
+  month = oct,
+  year = {2016},
+  location = {Raleigh, NC, USA},
+  publisher = {{IEEE} Computer Society},
+  project = {repair},
+  month_numeric = {10}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="XuanBachSynthesisEngines2016"><b>Empirical Study on Synthesis Engines for Semantics-based
+                  Program Repair</b>, Xuan-Bach D. Le, David Lo, and Claire Le Goues, in <i>International Conference on Software Maintenance and
+                  Evolution</i>, <i>ICSME ERA ’16</i>, 2016, pp. 423–427.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/XuanBachSynthesisEngines2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/ICSME.2016.68"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-XuanBachSynthesisEngines2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-XuanBachSynthesisEngines2016" style="display:
+                                                                     none;">@inproceedings{XuanBachSynthesisEngines2016,
+  author = {Le, Xuan-Bach D. and Lo, David and {Le Goues}, Claire},
+  title = {Empirical Study on Synthesis Engines for Semantics-based
+                    Program Repair},
+  booktitle = {International Conference on Software Maintenance and
+                    Evolution},
+  series = {ICSME ERA '16},
+  doi = {10.1109/ICSME.2016.68},
+  pages = {423--427},
+  month = oct,
+  year = {2016},
+  location = {Raleigh, NC, USA},
+  publisher = {{IEEE} Computer Society},
+  project = {repair},
+  month_numeric = {10}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="LeLikelyInvariants2016"><b>A Learning-to-Rank Based Fault Localization Approach using
+                  Likely Invariants</b>, Tien-Duy B. Le, David Lo, Claire Le&nbsp;Goues, and Lars Grunske, in <i>International Symposium on Software Testing and Analysis</i>, <i>ISSTA ’16</i>, 2016, pp. 177–188.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/LeLikelyInvariants2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/2931037.2931049"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-LeLikelyInvariants2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-LeLikelyInvariants2016" style="display:
+                                                                     none;">@inproceedings{LeLikelyInvariants2016,
+  author = {B. Le, Tien-Duy and Lo, David and {Le~Goues}, Claire and Grunske, Lars},
+  title = {A Learning-to-Rank Based Fault Localization Approach using
+                    Likely Invariants},
+  booktitle = {International Symposium on Software Testing and Analysis},
+  series = {ISSTA '16},
+  publisher = {ACM},
+  month = jul,
+  year = {2016},
+  location = {Saarbr{\"{u}}cken, Germany},
+  pages = {177--188},
+  numpages = {12},
+  doi = {10.1145/2931037.2931049},
+  month_numeric = {7}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="WeimerTrustedRepair2016"><b>Trusted Software Repair for System Resiliency</b>, Westley Weimer, Stephanie Forrest, Miryung Kim, Claire Le&nbsp;Goues, and Patrick Hurley, in <i>International Conference on Dependable Systems and Networks
+                  Workshops</i>, <i>DSN Workshops ’16</i>, 2016, pp. 238–241.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/WeimerTrustedRepair2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/DSN-W.2016.64"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-WeimerTrustedRepair2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-WeimerTrustedRepair2016" style="display:
+                                                                     none;">@inproceedings{WeimerTrustedRepair2016,
+  author = {Weimer, Westley and Forrest, Stephanie and Kim, Miryung and {Le~Goues}, Claire and Hurley, Patrick},
+  title = {Trusted Software Repair for System Resiliency},
+  booktitle = {International Conference on Dependable Systems and Networks
+                    Workshops},
+  series = {DSN Workshops '16},
+  pages = {238--241},
+  month = jul,
+  year = {2016},
+  location = {Toulouse, France},
+  publisher = {{IEEE} Computer Society},
+  doi = {10.1109/DSN-W.2016.64},
+  month_numeric = {7}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="TianRecommendation2016"><b>Learning to Rank for Bug Report Assignee Recommendation</b>, Yuan Tian, Dinusha Wijedasa, David Lo, and Claire Le&nbsp;Goues, in <i>International Conference on Program Comprehension</i>, <i>ICPC ’16</i>, 2016, pp. 1–10.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/TianRecommendation2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/ICPC.2016.7503715"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-TianRecommendation2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-TianRecommendation2016" style="display:
+                                                                     none;">@inproceedings{TianRecommendation2016,
+  author = {Tian, Yuan and Wijedasa, Dinusha and Lo, David and {Le~Goues}, Claire},
+  booktitle = {International Conference on Program Comprehension},
+  series = {ICPC '16},
+  title = {Learning to Rank for Bug Report Assignee Recommendation},
+  month = may,
+  year = {2016},
+  location = {Austin, TX, USA},
+  publisher = {{IEEE} Computer Society},
+  pages = {1--10},
+  doi = {10.1109/ICPC.2016.7503715},
+  project = {develop},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="vanTonderMicroClones2016"><b>Defending Against the Attack of the Micro-Clones</b>, Rijnard van&nbsp;Tonder and Claire Le&nbsp;Goues, in <i>International Conference on Program Comprehension</i>, <i>ICPC Short ’16</i>, 2016, pp. 1–4.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/vanTonderMicroClones2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/ICPC.2016.7503736"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-vanTonderMicroClones2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-vanTonderMicroClones2016" style="display:
+                                                                     none;">@inproceedings{vanTonderMicroClones2016,
+  author = {{van~Tonder}, Rijnard and {Le~Goues}, Claire},
+  booktitle = {International Conference on Program Comprehension},
+  series = {ICPC Short '16},
+  title = {Defending Against the Attack of the Micro-Clones},
+  month = may,
+  year = {2016},
+  location = {Austin, TX, USA},
+  pages = {1--4},
+  publisher = {{IEEE} Computer Society},
+  doi = {10.1109/ICPC.2016.7503736},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="KerryExceptions2016"><b>Examining Programmer Practices for Locally Handling
+                  Exceptions</b>, Mary Beth Kery, Claire Le&nbsp;Goues, and Brad A. Myers, in <i>International Conference on Mining Software Repositories</i>, <i>MSR Challenge ’16</i>, 2016, pp. 484–487.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/KerryExceptions2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/2901739.2903497"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-KerryExceptions2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-KerryExceptions2016" style="display:
+                                                                     none;">@inproceedings{KerryExceptions2016,
+  author = {Kery, Mary Beth and {Le~Goues}, Claire and Myers, Brad A.},
+  title = {Examining Programmer Practices for Locally Handling
+                    Exceptions},
+  booktitle = {International Conference on Mining Software Repositories},
+  series = {MSR Challenge '16},
+  month = may,
+  year = {2016},
+  pages = {484--487},
+  numpages = {4},
+  doi = {10.1145/2901739.2903497},
+  location = {Austin, TX, USA},
+  publisher = {{ACM}},
+  project = {develop},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="SotoMSRChallenge2016"><b>A Deeper Look into Bug Fixes: Patterns, Replacements,
+                  Deletions, and Additions</b>, Mauricio Soto, Ferdian Thung, Chu-Pan Wong, Claire Le&nbsp;Goues, and David Lo, in <i>International Conference on Mining Software Repositories</i>, <i>MSR Challenge ’16</i>, 2016, pp. 512–515.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/SotoMSRChallenge2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/2901739.2903495"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-SotoMSRChallenge2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-SotoMSRChallenge2016" style="display:
+                                                                     none;">@inproceedings{SotoMSRChallenge2016,
+  author = {Soto, Mauricio and Thung, Ferdian and Wong, Chu-Pan and {Le~Goues}, Claire and Lo, David},
+  title = {A Deeper Look into Bug Fixes: {P}atterns, Replacements,
+                    Deletions, and Additions},
+  booktitle = {International Conference on Mining Software Repositories},
+  series = {MSR Challenge '16},
+  month = may,
+  year = {2016},
+  pages = {512--515},
+  numpages = {4},
+  doi = {10.1145/2901739.2903495},
+  location = {Austin, TX, USA},
+  publisher = {{ACM}},
+  project = {repair},
+  month_numeric = {5}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="XuanBachHistory2016"><b>History Driven Program Repair</b>, Xuan-Bach D. Le, David Lo, and Claire Le&nbsp;Goues, in <i>International Conference on Software Analysis, Evolution, and
+                  Reengineering</i>, <i>SANER ’16</i>, 2016, vol. 1, pp. 213–224.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/XuanBachHistory2016.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/SANER.2016.76"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-XuanBachHistory2016').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-XuanBachHistory2016" style="display:
+                                                                     none;">@inproceedings{XuanBachHistory2016,
+  author = {Le, Xuan-Bach D. and Lo, David and {Le~Goues}, Claire},
+  booktitle = {International Conference on Software Analysis, Evolution, and
+                    Reengineering},
+  title = {History Driven Program Repair},
+  series = {SANER '16},
+  year = {2016},
+  volume = {1},
+  pages = {213-224},
+  doi = {10.1109/SANER.2016.76},
+  location = {Osaka, Japan},
+  month = mar,
+  publisher = {{IEEE} Computer Society},
+  project = {repair},
+  month_numeric = {3}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span></div>
+<h2 class="bibliography">2015</h2>
+<div class="bibliography" reversed="reversed"><span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="LeGouesManyBugs2015"><b>The ManyBugs and IntroClass Benchmarks for Automated
+                  Repair of C Programs</b>, Claire Le&nbsp;Goues, Neal Holtschulte, Edward K. Smith, Yuriy Brun, Premkumar Devanbu, Stephanie Forrest, and Westley Weimer, <i>IEEE Transactions on Software Engineering</i>, vol. 41, no. 12, pp. 1236–1256, Dec. 2015.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/LeGouesManyBugs2015.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://repairbenchmarks.cs.umass.edu"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/TSE.2015.2454513"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-LeGouesManyBugs2015').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-LeGouesManyBugs2015" style="display:
+                                                                     none;">@article{LeGouesManyBugs2015,
+  author = {{Le~Goues}, Claire and Holtschulte, Neal and Smith, Edward K. and Brun, Yuriy and Devanbu, Premkumar and Forrest, Stephanie and Weimer, Westley},
+  title = {The {ManyBugs} and {IntroClass} Benchmarks for Automated
+                    Repair of {C} Programs},
+  journal = {{IEEE} Transactions on Software Engineering},
+  year = {2015},
+  volume = {41},
+  number = {12},
+  pages = {1236--1256},
+  month = dec,
+  doi = {10.1109/TSE.2015.2454513},
+  project = {repair},
+  month_numeric = {12}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="SmithOverfitting2015"><b>Is the Cure Worse than the Disease? Overfitting in Automated
+                  Program Repair</b>, Edward K. Smith, Earl Barr, Claire Le&nbsp;Goues, and Yuriy Brun, in <i>Joint Meeting of the European Software Engineering Conference
+                  and the Symposium on the Foundations of Software Engineering</i>, <i>ESEC/FSE ’15</i>, 2015, pp. 532–543.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/SmithOverfitting2015.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/2786805.2786825"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-SmithOverfitting2015').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-SmithOverfitting2015" style="display:
+                                                                     none;">@inproceedings{SmithOverfitting2015,
+  author = {Smith, Edward K. and Barr, Earl and {Le~Goues}, Claire and Brun, Yuriy},
+  title = {Is the Cure Worse than the Disease? {O}verfitting in Automated
+                    Program Repair},
+  booktitle = {Joint Meeting of the European Software Engineering Conference
+                    and the Symposium on the Foundations of Software Engineering},
+  series = {ESEC/FSE '15},
+  month = sep,
+  year = {2015},
+  pages = {532--543},
+  location = {Bergamo, Italy},
+  publisher = {ACM},
+  doi = {10.1145/2786805.2786825},
+  project = {repair},
+  month_numeric = {9}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="CokerEvaluating2015"><b>Evaluating the Flexibility of the Java Sandbox</b>, Zack Coker, Michael Maass, Tianyuan Ding, Claire Le&nbsp;Goues, and Joshua Sunshine, in <i>Annual Computer Security Applications Conference</i>, <i>ACSAC ’15</i>, 2015, pp. 1–10.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/CokerEvaluating2015.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+        · <span class="refs-link">
+          <a href="/materials/CokerEvaluating2015.slides.pptx"><i class="fas fa-chart-pie"></i>
+          Slides (PowerPoint)</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/SecurityManagerCodeBase/JavaSandboxFortifier"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1145/2818000.2818003"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-CokerEvaluating2015').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-CokerEvaluating2015" style="display:
+                                                                     none;">@inproceedings{CokerEvaluating2015,
+  author = {Coker, Zack and Maass, Michael and Ding, Tianyuan and {Le~Goues}, Claire and Sunshine, Joshua},
+  title = {Evaluating the Flexibility of the Java Sandbox},
+  booktitle = {Annual Computer Security Applications Conference},
+  series = {ACSAC '15},
+  year = {2015},
+  pages = {1--10},
+  doi = {10.1145/2818000.2818003},
+  project = {develop}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="CokerSASS2015"><b>SASS: Self-adaptation Using Stochastic Search</b>, Zack Coker, David Garlan, and Claire Le&nbsp;Goues, in <i>Software Engineering for Adaptive and Self-Managing Systems</i>, <i>SEAMS ’15</i>, 2015, pp. 168–174.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/CokerSASS2015.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+        · <span class="refs-link">
+          <a href="/materials/CokerSASS2015.slides.pptx"><i class="fas fa-chart-pie"></i>
+          Slides (PowerPoint)</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/ZackC/AdaptiveSystemsGeneticProgrammingPlanner"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/SEAMS.2015.16"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-CokerSASS2015').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-CokerSASS2015" style="display:
+                                                                     none;">@inproceedings{CokerSASS2015,
+  author = {Coker, Zack and Garlan, David and {Le~Goues}, Claire},
+  title = {{SASS}: {S}elf-adaptation Using Stochastic Search},
+  booktitle = {Software Engineering for Adaptive and Self-Managing Systems},
+  series = {SEAMS '15},
+  year = {2015},
+  doi = {10.1109/SEAMS.2015.16},
+  pages = {168--174},
+  project = {ai-sbe}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span>
+<span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="KeSearchRepair2015"><b>Repairing Programs with Semantic Code Search</b>, Yalin Ke, Kathryn T. Stolee, Claire Le&nbsp;Goues, and Yuriy Brun, in <i>Automated Software Engineering</i>, <i>ASE ’15</i>, 2015, pp. 532–543.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/KeSearchRepair2015.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+        · <span class="refs-link">
+          <a href="/materials/KeSearchRepair2015.slides.pdf"><i class="fas fa-chart-pie"></i>
+          Slides (PDF)</a>
+        </span>
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="https://github.com/ProgramRepair/SearchRepair"><i class="far fa-file-code"></i> Code</a>
+        </span>
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1109/ASE.2015.60"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-KeSearchRepair2015').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-KeSearchRepair2015" style="display:
+                                                                     none;">@inproceedings{KeSearchRepair2015,
+  author = {Ke, Yalin and Stolee, Kathryn T. and {Le~Goues}, Claire and Brun, Yuriy},
+  title = {Repairing Programs with Semantic Code Search},
+  booktitle = {Automated Software Engineering},
+  year = {2015},
+  series = {ASE '15},
+  pages = {532--543},
+  doi = {10.1109/ASE.2015.60},
+  project = {repair}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span></div>
+<h2 class="bibliography">2014</h2>
+<div class="bibliography" reversed="reversed"><span><p>
+    </p><p></p><table style="width:100%">
+  <tbody><tr>
+      <td valign="top"><span class="abbrv"></span></td>
+      <td>
+        <div class="reference">
+          <span id="SSBSE2014"><span style="font-style: bold">Proceedings of the International Symposium on Search-Based
+                  Software Engineering</span>, Claire Le&nbsp;Goues and Shin Yoo, Eds., , vol. 8636. Springer, 2014.</span>
+        </div>
+
+
+        <span class="refs-link">
+          <a href="/materials/SSBSE2014.pdf"><i class="far fa-file-alt"></i> PDF</a>
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+        · <span class="refs-link">
+          <a href="http://dx.doi.org/10.1007/978-3-319-09940-8"><i class="fas fa-link"></i> DOI</a>
+        </span>
+
+        · <span class="refs-link">
+          <a href="javascript:void(0)" onclick="$('#bibtex-entry-SSBSE2014').slideToggle();">BibTeX</a>
+        </span>
+        <div class="bibtex noshow" style="width:600px;overflow:auto">
+  	      <pre class="bibtex-entry" id="bibtex-entry-SSBSE2014" style="display:
+                                                                     none;">@proceedings{SSBSE2014,
+  editor = {{Le~Goues}, Claire and Yoo, Shin},
+  title = {Proceedings of the International Symposium on Search-Based
+                    Software Engineering},
+  series = {SSBSE '14},
+  volume = {8636},
+  publisher = {Springer},
+  year = {2014},
+  doi = {10.1007/978-3-319-09940-8},
+  isbn = {978-3-319-09939-2}
+}
+</pre>
+        </div>
+      </td>
+    </tr>
+
+</tbody></table>
+</span></div>
+
+    </div>
+</div>
+</div>
+  </section>
+
+
+  <!-- fancy portfolio view, but we need cool pics -->
+  <!--
+  <section class="content-section" id="publications">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">Recent Projects</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Stationary</h2>
+                <p class="mb-0">A yellow pencil with envelopes on a clean, blue
+                backdrop!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Ice Cream</h2>
+                <p class="mb-0">A dark blue background with a colored pencil, a
+                clip, and a tiny ice cream cone!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Strawberries</h2>
+                <p class="mb-0">Strawberries are such a tasty snack, especially
+                with a little sugar on top!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Workspace</h2>
+                <p class="mb-0">A yellow workspace with some scissors, pencils,
+                and other objects.</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="https://github.com/squaresLab/">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; squaresLab 2019</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
