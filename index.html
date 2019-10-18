@@ -75,7 +75,7 @@
 	    <p>Our public projects can be found at <a href="https://github.com/squaresLab">squaresLab
 		GitHub</a></p>
 
-	    <p>squaresLab@CMU is led by (Assistant) Professor <a href="http://www.clairelegoues.com">Claire Le
+	    <p>squaresLab@CMU is led by (Associate) Professor <a href="http://www.clairelegoues.com">Claire Le
 		Goues</a>, and also includes:</p>
 
 	    <ul style="list-style: none;">
@@ -85,7 +85,7 @@
 
 	      <li><a href="http://www.andrew.cmu.edu/user/zfc/">Zack Coker</a></li>
 
-	      <li><a href="http://www.cs.cmu.edu/~rvantond/">Rijnard van Tonder</a></li>
+
 
 	      <li><a href="http://www.cs.cmu.edu/~msotogon/">Mauricio Soto</a></li>
 
@@ -95,6 +95,10 @@
 
 	      <li><a href="http://www.cs.cmu.edu/~jlacomis/">Jeremy Lacomis</a></li>
 	    </ul>
+        <p>We also have graduated students:</p>
+          <ul style = "list-style: none;">
+	      <li><a href="http://www.cs.cmu.edu/~rvantond/">Rijnard van Tonder</a></li>
+          </ul>
 
 	    <p>Past visiting students include:</p>
 
@@ -137,62 +141,73 @@
 
 	  <hr />
 
-	  <h2 id="programrepair">Program Repair</h2>
+	  <h2 id="programrepair">Program Transformation and Repair</h2>
 
 	  <p>The error repair process in software systems is, historically, a
 	    resource-consuming task that relies heavily on manual developer effort.
 	    Automatic program repair approaches enable the repair of software with minimum
 	    human interaction mitigating the burden on developers.  We have created and
 	    analyzed existing automatic program repair approaches to improve their
-	    performance and quality of created patches.  This includes sub-areas such
-	    as:</p>
+	    performance and quality of created patches; this work has produced
+	    frameworks and toolsets for automatic program transformation and repair, as well as
+	    datasets for its evaluation. You might be looking for:</p>
 
-	  <h4 id="genprog">GenProg</h4>
+<h3>Heuristic transformation and repair</h3>
+<ul style = "list-style: none;">
+      <li><a href="https://comby.dev/">Comby:</a> a lightweight, declarative way
+      to change code across many
+      languages. (<a href="https://www.youtube.com/watch?v=JMZLBB_BFNg">Watch
+      the StrangeLoop talk!</a>)</li>
+      <li><a href="https://github.com/squaresLab/Darjeeling">Darjeeling:</a> a
+        framework for language-agnostic search-based/heuristic program repair.
+        If you want something GenProg-like but significantly more modern, this
+        is your cup of tea.</li>
+      <li><a href="https://github.com/squaresLab/SemanticCrashBucketing">Semantic
+      Crash Bucketing</a>: fuzz test triage via program transformaiton.</li>
 
-	  <p>GenProg combines stochastic search methods like genetic programming with
-	    lightweight program analyses to find patches for real bugs in extant
-	    software. The <a href="https://squareslab.github.io/genprog-code">GenProg
-	      website</a> covers most GenProg-related research, with links to the various
-	    GitHub repositories, results, and reproduction instructions.</p>
+      <li><a href="https://github.com/squaresLab/genprog4java">GenProg4Java:</a>
+      a framework for heuristic program repair for Java programs; a generally
+      faithful reproduction of the original GenProg4C technique (below).</li>
 
-	  <h4 id="searchrepair">SearchRepair</h4>
+      <li><a href="https://squareslab.github.io/genprog-code">GenProg</a>:
+	    stochastic search methods like genetic programming, combined with
+	    lightweight program analyses, to find patches for bugs in extant
+	    software.  The GenProg website covers most GenProg-related
+	    research and prior results. If you want to run <i>new</i> experiments,
+	    you may want to <i>start</i> with Darjeeling and/or BugZoo (above).</li>
+</ul>
 
-	  <p>SearchRepair extends and uses semantic code search over large repositories of
-	    candidate code bases to produce high-quality bug patches.</p>
 
-	  <h4 id="repairbox">RepairBox</h4>
+<h3>Static and semantic repair</h3>
+<ul style = "list-style: none;">
 
-	  <p><a href="https://github.com/squaresLab/RepairBox">RepairBox</a> is an ongoing
-	    effort to provide a series of controlled environments for performing experiments
-	    on buggy C programs, particularly for program repair; it supports a number of
-	    bug scenarios from existing datasets, including ManyBugs.  We are especially
-	    working to transition as many of the ManyBugs scenarios as possible to be
-	    reproducible in modern environments (no more relying on Fedora 13!), primarily
-	    through the use of Docker.</p>
+  <li><a href="https://github.com/squaresLab/footpatch">FootPatch</a>: static
+    repair of heap-based violations, extending Facebook's Infer toolset</li>
+<li><a href="https://xuanbachle.github.io/semanticsrepair/">S3 and JFix</a>:
+  semantics-based repair for Java programs</li>
+</ul>
 
-	  <h4 id="improvingpatchquality">Improving Patch Quality</h4>
+<h3>Datasets and experimental frameworks</h3>
+<ul style = "list-style: none;">
 
-	  <p>A problem automatic program repair approaches commonly suffer is generating
-	    low-quality patches which overfit to one program specification as described by
-	    the guiding test suite, thus not generalizing to an independent oracle
-	    evaluation.  Our work proposes a set of mechanisms to incentivize the creation
-	    of high-quality patches.</p>
+	  <li> <a href="https://github.com/squaresLab/BugZoo">BugZoo:</a> an active
+	    effort to support controlled experiments on buggy C programs,
+	    particularly for program repair; it supports the reproduction, in a
+	    modern environment, of a number of scenarios from existing datasets,
+	    including <a href="https://repairbenchmarks.cs.umass.edu">ManyBugs</a>.
+        </li>
+<li><a href="http://repairbenchmarks.cs.umass.edu/">ManyBugs and IntroClass:</a>
+  benchmarks and results intended to support evaluations of
+	    program repair research. We recommend BugZoo for new ManyBugs
+  experiments</li>
+</ul>
 
-	  <p><strong>Program Repair Related Publications:</strong> FIXME: {% bibliography --query @*[project~=robots] %}</p>
-
-	  <h4 id="manybugsandintroclass">ManyBugs and IntroClass</h4>
-
-	  <p>ManyBugs and IntroClass are benchmarks intended to support evaluations of
-	    program repair research. More info at
-	    the <a href="http://repairbenchmarks.cs.umass.edu/">repairbenchmarks
-	      site</a>.</p>
-
-	  <p><strong>Related Publications:</strong></p>
+<!--	  <p><strong>Related Publications:</strong></p>
 
 	  <ul>
 	    <li><a href="/publications/#LeGouesManyBugs2015">The ManyBugs and IntroClass
 		Benchmarks for Automated Repair of C Programs</a></li>
-	  </ul>
+	  </ul>-->
 
 	  <h2 id="roboticssoftwareqabugtesting">Robotics Software QA/Bug Testing</h2>
 
@@ -333,12 +348,6 @@ non-breaking space (<code class="highlighter-rouge">Le~Goues</code>). We have fo
         <span class="refs-link">
           <a href="/materials/DingLyuGI2019.pdf"><i class="far fa-file-alt"></i> PDF</a>
         </span>
-
-
-
-
-
-
 
 
 
