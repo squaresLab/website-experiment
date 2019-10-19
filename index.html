@@ -21,6 +21,12 @@
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
+ 
+<!-- Start Bootstrap Carousel HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End Bootstrap Carousel HEAD section -->
+
 </head>
 
 <body id="page-top">
@@ -103,19 +109,17 @@
 	    <p>Past visiting students include:</p>
 
 	    <ul class="list-style: none;">
-	      <li>Xuan Bach Le Dinh, Singapore Management University</li>
+	      <li><a href="https://xuanbachle.github.io/">Xuan Bach Le Dinh,</a> PhD, Singapore Management University, now at the University of Melbourne</li>
 
-	      <li><a href="http://www.mysmu.edu/phdis2012/yuan.tian.2012/">Tian Yuan</a>, Singapore
+	      <li><a href="http://sophiaytian.com/">Tian Yuan</a>, PhD, Singapore Management University, now at Queen's University (Ontario, CA) </li> 
+
+	      <li><a href="https://sites.google.com/site/lebuitienduy">Le Bui Tien Duy</a>, PhD, Singapore
 		Management University</li>
 
-	      <li><a href="https://sites.google.com/site/lebuitienduy">Le Bui Tien Duy</a>, Singapore
-		Management University</li>
-
-	      <li>Pavneet Singh Kochhar, Singapore Management University</li>
+	      <li>Pavneet Singh Kochhar, PhD, Singapore Management University, now at MSR</li>
 	    </ul>
 
-	    <p>If you're not sure who to contact, squaresLab can be reached via email: clegoues
-	      at cs dot cmu dot edu</p>
+	    <p>If you're not sure who to contact, squaresLab can be reached via email: clegoues@cs.cmu.edu</p>
 
 	    <p style="font-size:1rem">*We apologize, sort of, for the egregious backronym.</p>
 	  </div>
@@ -123,6 +127,44 @@
       </div>
     </div>
   </section>
+
+<!-- Corny Carousel -->
+ <section class="content-section bg-primary text-white text-center research"
+          id="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="./img/GroupBowlingPhoto.JPG" alt="squaresLab after a friendly but competitive bowling excursion">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/GroupEscapeRoomPhoto.jpg" alt="squaresLab after successfully solving Carnegie'$ Million$ at Escape Room Pittsburgh">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/GroupAxePhoto.jpg" alt="squaresLab in our squaresLab t-shirts after an axe throwing social event">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/GroupApples.jpg" alt="squaresLab goes apple picking">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</section>
+
 
   <!-- Research -->
   <section class="content-section bg-primary text-white text-center research" id="research">
@@ -133,10 +175,10 @@
       <div class="row">
 	<div class="col-sm-12 text-left">
 	  <hr />
-	  <p>Here we list our research efforts by subject, linked to the section in the
-	    publication page that further links to the materials associated with each
-	    project. If you can't find something or think we've forgotten anything, please
-	    contact us directly or file an issue with this page at
+	  <p>Here we loosely organize our research efforts loosely by subject. If you can't
+	    find something or think we've forgotten anything, make sure you also
+	    consult the publications list, and consider
+	    contacting us directly or filing an issue with this page at
 	    <a href="https://github.com/squaresLab/squaresLab.github.io">https://github.com/squaresLab/squaresLab.github.io</a>.</p>
 
 	  <hr />
@@ -174,7 +216,7 @@
 	    lightweight program analyses, to find patches for bugs in extant
 	    software.  The GenProg website covers most GenProg-related
 	    research and prior results. If you want to run <i>new</i> experiments,
-	    you may want to <i>start</i> with Darjeeling and/or BugZoo (above).</li>
+	    you may want to <i>start</i> with Darjeeling and/or BugZoo.</li>
 </ul>
 
 
@@ -3137,6 +3179,8 @@ non-breaking space (<code class="highlighter-rouge">Le~Goues</code>). We have fo
       <p class="text-muted small mb-0">Copyright &copy; squaresLab 2019</p>
     </div>
   </footer>
+
+
 
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
